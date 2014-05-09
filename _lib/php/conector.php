@@ -10,7 +10,7 @@ if (@$conexion->connect_error)
 
 /*  else{	
 	
-	echo ("conexion exitoso");
+	echo ("conexion exitoso");  
 } */
 
 	#@$conexion->close();	
