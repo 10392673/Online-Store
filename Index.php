@@ -12,7 +12,7 @@
 	
   <?php
   
-      echo ("Hola Mundo ke hacce?");
+      echo ("Hola Mundo ke hace?");
   
   ?>
 		
