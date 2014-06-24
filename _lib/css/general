@@ -1,5 +1,27 @@
 /*CSS GENERAL DEL PROYECTO*/
-
+body{ background-color:#124F92; text-align:center; color:#FFF; font-family:Arial; font-weight:bold; text-transform:capitalize; margin:0px auto; }
+body .wraper{  background-color:#008080; display:inline-block; width:600px; height:300px; margin:70px auto 0;  }
+body .wraper label{ display:inline-block; width:400px; text-align:center; height:40px; line-height:40px; }
+body .wraper .bloque { display:inline-block; width:400px; height:100px; margin-top:50px;  }
+body .wraper .bloque label{ width:100px; display:inline-block;  }
+body .wraper .bloque input{ margin:0px; width:200px; border:2px solid #B0C4DE; height:20px; display:inline-block; color:#99B4D1; display:inline-block; font-family:arial; font-size:14px; font-weight:bold; }
+.clock { width:300px; display:inline-block; }
+.clock #Date {  font-size:22px; text-shadow:0 0 5px #00c6ff; }
+.clock ul { display:inline-block; width:155px; }
+.clock ul li { display:inline-block; text-shadow:0 0 50px #00c6ff; float:left; font-size:25px; }
+.clock ul #point { display:inline-block; -moz-animation:mymove 1s ease infinite; -webkit-animation:mymove 1s ease infinite; }
+@-webkit-keyframes mymove
+{ 
+	0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+	50% {opacity:0; text-shadow:none; }
+	100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }
+}
+@-moz-keyframes mymove
+{
+	0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+	50% {opacity:0; text-shadow:none; }
+	100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }
+} 
 
 
 
