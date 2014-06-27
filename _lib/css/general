@@ -1,27 +1,72 @@
-/*CSS GENERAL DEL PROYECTO*/
-body{ background-color:#124F92; text-align:center; color:#FFF; font-family:Arial; font-weight:bold; text-transform:capitalize; margin:0px auto; }
-body .wraper{  background-color:#008080; display:inline-block; width:600px; height:300px; margin:70px auto 0;  }
-body .wraper label{ display:inline-block; width:400px; text-align:center; height:40px; line-height:40px; }
-body .wraper .bloque { display:inline-block; width:400px; height:100px; margin-top:50px;  }
-body .wraper .bloque label{ width:100px; display:inline-block;  }
-body .wraper .bloque input{ margin:0px; width:200px; border:2px solid #B0C4DE; height:20px; display:inline-block; color:#99B4D1; display:inline-block; font-family:arial; font-size:14px; font-weight:bold; }
-.clock { width:300px; display:inline-block; }
+body{ background-color:#FFF; text-align:center; color:#FFF; font-family:Arial; font-weight:bold; margin:0px auto; }
+/*COMIENZA ESTILOS GENERALES*/
+body div, span, form, p, a, select, input, label, img, ul, li{ display:inline-block; margin:0px; padding:0px; border:0px; outline:none; font-family:Arial; font-size:12px; text-decoration:none; color:#FFF; }
+/*TERMINA ESTILOS GENERALES*/
+
+/*COMIENZA CCS PARA LOGGIN*/
+body .wraper{  background-color:#006185;  width:600px; height:280px; }
+body .wraper .titly{ background-color:#0F3F50; width:600px; text-align:center; height:40px; line-height:37px; font-weight:bold; }
+body .wraper form{ background:url("../img/logo.png") no-repeat 470px 21px #004A60; width:580px; height:220px; box-shadow:0px 1px 5px #000; margin-top:10px; }
+body .wraper form .bloque { width:400px; height:32px; margin-bottom:15px; }
+body .wraper form .bloque label{ width:100px;  }
+body .wraper form .bloque input{ text-align:center; background:url("../img/user.png") no-repeat 0px 0px transparent; margin:0px; width:250px; height:32px; display:inline-block; color:navy; font-family:arial; font-size:14px; }
+body .wraper form .sep{ height:50px; width:300px; }
+body .wraper form .bloque .pass{ background:url("../img/pass.png") no-repeat 0px 0px transparent; }
+body .wraper form .bloque .enviar{ background:url("../img/send.png") no-repeat 0px 0px transparent; width:132px; height:33px; font-family:Arial; font-weight:bold; font-size:13px; color:#FFF; cursor:pointer; }
+body .wraper form .logo{ background:url("../img/help.png") no-repeat right top transparent; height:34px; width:113px; }
+/*TERMINA CCS PARA LOGGIN*/
+
+/*COMIENZA CCS PARA HOME*/
+body .wrapper{ width:1200px;  }
+body .wrapper .header{ width:1200px; background-color:#004967; height:96px; position:relative; }
+body .wrapper .header .logoh{ background:url("../img/logoh.png") no-repeat center top transparent; height:89px; width:215px; float:left; }
+body .wrapper .header p{ float:right; line-height:45px; width:300px; }
+body .wrapper .header .menu1{ background-color:#FFF; width:748px; height:30px; position:absolute; bottom:5px; left:250px; }
+body .wrapper .header .menu1 ul{ width:755px; height:30px; }
+body .wrapper .header .menu1 ul li{ width:97px; height:30px; margin-left:6px; float:left; }
+body .wrapper .header .menu1 ul li:first-child{ margin-left:0px; }
+body .wrapper .header .menu1 ul li a{ background-color:#0074A3; width:100px; height:30px; line-height:30px; border-radius:4px; }
+body .wrapper .header .menu1 ul li a:first-child{ border-radius:0px; }
+body .wrapper .header .menu1 ul li .buscar{ background:url("../img/buscar.png") no-repeat 0px 0px transparent; width:230px; height:26px; text-indent:30px; font-weight:bold; }
+body .wrapper .header .menu1 ul li:nth-child(5) { width:230px; margin-top:2px; }
+body .wrapper .sep{ color:#000; float:left; height:20px; line-height:13px; text-align:left; text-indent:60px; width:500px; margin-top:12px; }
+body .wrapper .left{ width:215px; height:365px; background-color:#005360; float:left; }
+body .wrapper .left .menu2{ width:215px; margin-top:20px;}
+body .wrapper .left .menu2 ul{ width:215px; }
+body .wrapper .left .menu2 ul li{ width:215px; margin-top:6px; }
+body .wrapper .left .menu2 ul li a{ background-color:#0074A3; width:215px; height:25px; line-height:26px; text-indent:25px;  text-align:left; }
+body .wrapper .left .menu2 ul li a:hover, body .wrapper .header .menu1 ul li a:hover { background-color:#003153; }
+body .wrapper .left .menu2 ul .activ a, body .wrapper .header .menu1 ul .activ a{ background-color:#003153; }
+body .wrapper .left img{ margin-top:20px; }
+/*TERMINA CCS PARA HOME*/
+
+
+body .wrapper .content{ width:975px; height:400px; background-color:#003F6B; float:right;  }
+
+
+body .wrapper .fotter{ width:1200px; background-color:#004967; height:130px; }
+body .wrapper .fotter ul{ width:800px; height:50px; }
+body .wrapper .fotter ul li{ margin:10px;  border-bottom:1px solid #FFF; }
+body .wrapper .fotter ul li a{  width:200xp; }
+body .wrapper .fotter p{ width:430px; }
+
+
+
+.clock { width:300px; }
 .clock #Date {  font-size:22px; text-shadow:0 0 5px #00c6ff; }
-.clock ul { display:inline-block; width:155px; }
-.clock ul li { display:inline-block; text-shadow:0 0 50px #00c6ff; float:left; font-size:25px; }
-.clock ul #point { display:inline-block; -moz-animation:mymove 1s ease infinite; -webkit-animation:mymove 1s ease infinite; }
-@-webkit-keyframes mymove
-{ 
-	0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+.clock ul { width:155px; }
+.clock ul li { text-shadow:0 0 50px #00c6ff; float:left; font-size:25px; }
+.clock ul #point { -moz-animation:mymove 1s ease infinite; -webkit-animation:mymove 1s ease infinite; }
+@-webkit-keyframes mymove { 0% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }
 	50% {opacity:0; text-shadow:none; }
 	100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }
 }
-@-moz-keyframes mymove
-{
-	0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+@-moz-keyframes mymove{	0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
 	50% {opacity:0; text-shadow:none; }
 	100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }
-} 
+}   
+
+
 
 
 
