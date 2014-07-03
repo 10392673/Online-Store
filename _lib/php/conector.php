@@ -1,17 +1,17 @@
 <?php 
 
-	@$conexion = new mysqli();
-	@$conexion->connect("localhost", "root", "", "facturas");
+	$conexion = new mysqli();
+	@$conexion->connect("localhost", "root", "", "BDSTORE");
 
 if (@$conexion->connect_error) 
 {
-    die('Error de conexiÃ³n: ' . @$conexion->connect_error); 
+    die('Error de conexión: ' . $conexion->connect_error); 
 }
 
-/*  else{	
+/*   else{	
 	
-	echo ("conexion exitoso");  
-} */
+	echo ("conexion exitoso");
+} */ 
 
 	#@$conexion->close();	
 
