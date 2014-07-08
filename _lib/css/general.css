@@ -17,7 +17,7 @@ body .wraper form .logo{ background:url("../img/help.png") no-repeat right top t
 /*TERMINA CCS PARA LOGGIN*/
 
 /*COMIENZA CCS PARA HOME*/
-body .wrapper{ width:1200px;  }
+body .wrapper{ width:1200px; margin:0px auto; }
 body .wrapper .header{ width:1200px; background-color:#004967; height:96px; position:relative; }
 body .wrapper .header .logoh{ background:url("../img/logoh.png") no-repeat center top transparent; height:89px; width:215px; float:left; }
 body .wrapper .header p{ float:right; line-height:45px; width:300px; }
@@ -72,7 +72,7 @@ body .wrapper .content .ofertas .promo2 p{ width:300px; }
 body .wrapper .content .ask{ width:975px; margin:10px 0px 20px 0px; }
 body .wrapper .content .ask h1{ width:975px; text-align:left; font-weight:bold; font-size:20px; text-indent:40px; }
 body .wrapper .content .ask ul{ width:975px; }
-body .wrapper .content .ask ul li{ background:url("../img/vigneta.gif") no-repeat 0px 0px transparent; text-indent:40px; width:700px; float:left; text-align:left; margin-top:10px; font-weight:bold; font-size:17px; } 
+body .wrapper .content .ask ul li{ background:url("../img/vigneta.gif") no-repeat 30px 10px transparent; text-indent:40px; width:700px; float:left; text-align:left; margin-top:10px; font-weight:bold; font-size:17px; } 
 body .wrapper .content .ask p{ float:left; width:700px; text-align:left; margin-left:50px; }
 body .wrapper .content .ask ul li a{ text-align:left; color:blue; }
 /*TERMINA CCS PARA PREGUNTAS FRECUENTES*/
@@ -121,7 +121,7 @@ body .wrapper .fotter p{ width:430px; }
 }   
 
 
-
+td{ color:#000; }
 
 
 

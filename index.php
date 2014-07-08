@@ -9,8 +9,38 @@
 	<script type="text/javascript" language="javascript" src="_lib/js/jquery.fancybox.pack.js"></script>
 	<!--<script type="text/javascript" language="javascript" src="_lib/js/ajax_utcancun.js"></script>-->
 	<script type="text/javascript" language="javascript" src="_lib/js/config.js"></script>
+	
+					<!-- JS Uriel-->
+        <script src="_lib/uriel/js/tabs.js"> </script>
+		<script src="_lib/uriel/js/moveform.js"></script>		
+		<!-- Masonry -->
+		<script src="_lib/uriel/js/masonry.min.js" ></script>
+		<script src="_lib/uriel/js/imagesloaded.js" ></script>
+		<!-- ENDS Masonry -->		
+		<!-- Tweet -->
+		<script src="_lib/uriel/js/jquery.tweet.js" ></script> 
+		<!-- ENDS Tweet -->		
+		<!-- superfish -->
+		<script  src="_lib/uriel/js/hoverIntent.js"></script>
+		<script  src="_lib/uriel/js/superfish.js"></script>
+		<!-- ENDS superfish -->		
+		<!-- prettyPhoto -->
+		<script  src="_lib/uriel/js/jquery.prettyPhoto.js"></script>
+		<!-- ENDS prettyPhoto -->
+		<!-- Flex Slider -->
+		<script src="_lib/uriel/js/jquery.flexslider-min.js"></script>
+		<!-- ENDS Flex Slider -->
+		<!-- modernizr -->
+		<script src="_lib/uriel/js/modernizr.js"></script>
+		
+		
 	<!--<style type="text/css" rel="stylesheet" media="screen">@import"css/bootstrap-3.1.1/css/bootstrap.css";</style>-->
+	
+			<!--BEGIN GOOGLE FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Allan:700' rel='stylesheet' type='text/css'>
+			<!--END GOOGLE FONTS -->
 	<style type="text/css" rel="stylesheet" media="screen">@import"_lib/css/jquery.fancybox.css";</style>
+	<style type="text/css" rel="stylesheet" media="screen">@import"_lib/uriel/css/uriel.css";</style>
 	<style type="text/css" rel="stylesheet" media="screen">@import"_lib/css/general.css";</style>
 	
 	<?php

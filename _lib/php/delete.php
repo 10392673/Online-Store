@@ -41,8 +41,4 @@
 	</div>
 	
 	</body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> ae5eda0f46d4a67cba8de20178c34cb6daf96932

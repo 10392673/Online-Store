@@ -11,24 +11,24 @@
 	<body>
 	
 	<?php 
-		include("php/conector.php");
+		include("conector.php");
 		
 		if($_POST) 
 		{
 		
-		$id = $_POST['idcliente']; 
+		$id = $_POST['id']; 
 		$nombre = $_POST['nombre']; 
 		$dir = $_POST['direccion']; 
-		$tel = $_POST['tel']; 
-		$rfc = $_POST['rfc']; 
+		$tel = $_POST['telefono']; 
+		$rfc = $_POST['id_usuario']; 
 	}
 	
-		@$query = mysqli_query(@$conexion, "INSERT INTO cliente (idcliente, nombre, direccion, telefono, rfc) VALUES ('$id','$nombre','$dir','$tel', '$rfc')" ); 
+		@$query = mysqli_query(@$conexion, "INSERT INTO cliente (id, nombre, direccion, telefono, id_usuario) VALUES ('$id','$nombre','$dir','$tel', '$clavus')" ); 
 	
 	 ?>	
 	 
 	<div class="agreg" >
-		 <form action="Agregar.php" method="post" >
+		 <form action="add.php" method="post" >
 			<label>Id Cliente</label>
 			<input type="text" name="idcliente" />	
 			<label>Nombre</label>
@@ -37,8 +37,8 @@
 			<input type="text" name="direccion" />
 			<label>Telefono</label>
 			<input type="text" name="tel" />
-			<label>RFC</label>		
-			<input type="text" name="rfc" />
+			<label>Clave de usuario</label>		
+			<input type="text" name="clavus" />
 			<div>
 				<input type="submit" name="guardar" value="Guardar" />		
 				<input type="reset" name="borrar" value="Limpiar" />		
@@ -54,8 +54,4 @@
 	</div>
 	
 	</body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> ae5eda0f46d4a67cba8de20178c34cb6daf96932
