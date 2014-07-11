@@ -158,3 +158,11 @@ td{ color:#000; }
 
 
 
+/* Personalización */
+.header,.left,.fotter,.content,.promo{background-image: url(../img/azulinverso.jpg); background-repeat:repeat;}
+.header,.left,.fotter{background-position:right;}
+.content{background-position:-1500px;}
+.promo{background-position:1200px;
+   border-top:15px rgba(255,255,255,.6) solid;
+   border-bottom:15px rgba(255,255,255,.6) solid;
+}
