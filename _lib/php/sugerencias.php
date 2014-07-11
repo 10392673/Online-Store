@@ -42,10 +42,10 @@
 			<div class="block">
 				<h4>Direcci&oacute;n</h4>
 				<ul class="address-block">
-				  <li class="address">Calle 20 de Noviembre # 55 Colonia Zaragoza</li>
-					<li class="phone">01 (222) 6 03 28 72</li>
-					<li class="phone">01 (222) 2 35 82 34</li>
-					<li class="email"> administracion@mycaes.com</li>
+				  <li class="address">Canc&uacute;n QROO, M&eacute;xico MZA 30 Lte 10 Mz 120</li>
+					<li class="phone">9982006253</li>
+					<li class="phone">9981884756</li>
+					<li class="email">thimixsadecv@hotmail.com</li>
 				</ul>		        		
 			</div>	        	
 		</aside>

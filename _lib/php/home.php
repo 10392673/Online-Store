@@ -1,22 +1,12 @@
-
-	<script type="text/javascript" language="javascript" src="_lib/js/jquery-1.10.2.js"></script>
-	<script type="text/javascript" language="javascript" src="_lib/js/jquery.cycle.js"></script>
-	<script type="text/javascript" language="javascript" src="_lib/js/jquery.fancybox.pack.js"></script>
-	<!--<script type="text/javascript" language="javascript" src="_lib/js/ajax_utcancun.js"></script>-->
 	<script type="text/javascript" language="javascript" src="_lib/js/config.js"></script>
-	<!--<style type="text/css" rel="stylesheet" media="screen">@import"css/bootstrap-3.1.1/css/bootstrap.css";</style>-->
-	<style type="text/css" rel="stylesheet" media="screen">@import"_lib/css/jquery.fancybox.css";</style>
-	<style type="text/css" rel="stylesheet" media="screen">@import"_lib/css/general.css";</style>
-	
 
 				<div class="slider" >
-					<img src="_lib/img/slider/img1.jpg" alt="promo 2014" />
-					<img src="_lib/img/slider/img2.jpg" alt="promo 2014" />
-					<img src="_lib/img/slider/img3.jpg" alt="promo 2014" />
-					<img src="_lib/img/slider/img4.jpg" alt="promo 2014" />
-					<img src="_lib/img/slider/img5.jpg" alt="promo 2014" />
-				</div>
-			
+								<img src="_lib/img/slider/img1.jpg" alt="promo 2014" />
+								<img src="_lib/img/slider/img2.jpg" alt="promo 2014" />
+								<img src="_lib/img/slider/img3.jpg" alt="promo 2014" />
+								<img src="_lib/img/slider/img4.jpg" alt="promo 2014" />
+								<img src="_lib/img/slider/img5.jpg" alt="promo 2014" />
+				</div>			
 				<div class="banner" >
 					<h2>Solo las mejore marcas</h2>
 					<img src="_lib/img/img3.png" alt="Banner" />
@@ -56,17 +46,3 @@
 						<p>Clave del articulo #568</p>
 					</div>			
 				</div>			
-				
-			
-			
-		
-			 <div class="clock">
-				<div id="Date"></div>
-				<ul>
-					<li id="hours"> </li>
-					<li id="point">:</li>
-					<li id="min"> </li>
-					<li id="point">:</li>
-					<li id="sec"> </li>
-				</ul>
-			</div>

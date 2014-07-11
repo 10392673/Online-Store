@@ -195,12 +195,11 @@ background: rgb(255,255,158);
 #contentf img::-moz-selection {
 background: transparent;
 }
-#contentf .wrapper { width: 852px; padding-left: 68px; }
+.wrapper { width: 852px; padding-left: 68px; }
 #main { width: 920px; padding-left: 0px; }
 #mobile-nav-holder { display: none; }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-#contentf  .wrapper { padding-left: 0px; width: 760px; }
-#contentf  #main { padding-left: 0px; width: 760px; }
+.wrapper, #main { padding-left: 0px; width: 760px; }
 #logo { padding-left: 0px; }
 nav { }
 #nav li { font-size: 13px; font-weight: lighter; }
@@ -239,8 +238,7 @@ aside.retractil { top: 72px; }
 .recent-post .post-head { width: 162px; }
 }
 @media only screen and (max-width: 767px) {
-#contentf .wrapper  { padding-left: 0px; width: 319px; }
-#contentf #main { padding-left: 0px; width: 319px; }
+.wrapper, #main { padding-left: 0px; width: 319px; }
 #logo { float: none; padding-left: 0px; }
 #logo img { display: block; margin:  0 auto; }
 nav { display: none; }
@@ -292,8 +290,7 @@ footer #to-top { display: block; }
 .home-gallery li { margin-left: 33px; width: 252px; }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-#contentf  .wrapper { padding-left: 0px; width: 484px; }
-#contentf  #main { padding-left: 0px; width: 484px; }
+.wrapper, #main { padding-left: 0px; width: 484px; }
 #main #content { width: 484px; float: none; }
 .shadow-main { width: 484px; height: 11px; margin-left: 0px; background: url(../img/shadow-main-mobile-lan.png) no-repeat top center; }
 .home-block-heading { margin-left: 24px; margin-right: 24px; }
@@ -578,8 +575,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 @import url('elements.css');
 /* GENERAL ------------------------------------------------------------*/
 .clearfix { clear:both; }
-#contentf .wrapper { margin: 0 auto; position: relative; }
-#contentf #main  { margin: 0 auto; position: relative; }
+.wrapper, #main { margin: 0 auto; position: relative; }
 #contentf p { margin-bottom: 21px; }
 #contentf a { text-decoration: none; color: #444; -webkit-transition: color 0.3s ease; -moz-transition: color 0.3s ease; -o-transition: color 0.3s ease; transition: color 0.3s ease; }
 #contentf a:hover { color: #fe8300; /* aqui cambias el color anaranjado*/ }

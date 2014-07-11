@@ -8,6 +8,11 @@
 	<script type="text/javascript" language="javascript" src="_lib/js/jquery.cycle.js"></script>
 	<script type="text/javascript" language="javascript" src="_lib/js/jquery.fancybox.pack.js"></script>
 	<!--<script type="text/javascript" language="javascript" src="_lib/js/ajax_utcancun.js"></script>-->
+	
+	<script type="text/javascript" language="javascript" >
+	jQuery( "body script, body style, body #visas_style_div, body .bModal" ).remove();
+	</script>
+	
 	<script type="text/javascript" language="javascript" src="_lib/js/config.js"></script>
 	
 					<!-- JS Uriel-->
@@ -56,11 +61,18 @@
 				<ul>
 					<li class="activ" ><a id="home" href="javascript:void(0);">Inicio</a></li>
 					<li style="display:none;" ><a id="factura" href="javascript:void(0);">Facturas</a></li>
-					<li><a id="articulo" href="javascript:void(0);">Articulos</a></li>
+					<li><a class="art" href="javascript:void(0);">Articulos</a></li>
 					<li style="display:none;" ><a id="stock" href="javascript:void(0);">Stock</a></li>
 					<li><input type="text" name="buscar" class="buscar" placeholder="Buscar" /></li>
-					<li><a id="box" data-fancybox-type="iframe" href="_lib/php/loggin.php">Iniciar Sesion</a></li>
+					<li><a class="box" data-fancybox-type="iframe" href="_lib/php/loggin.php">Iniciar Sesion</a></li>
 				</ul>
+				<div style="display:none;" class="menu">
+					<ul>
+						<li><a id="pc" href="javascript:void(0);">PC</a></li>
+						<li><a id="lap" href="javascript:void(0);">Laptop</a></li>
+						<li><a id="ac" href="javascript:void(0);">Accesorios</a></li>
+					</ul>
+				</div>
 			</div>
 			<p><a href="skype:alanjkun?call">Contactenos 01 800 522 687</a></p>
 		</div>
@@ -95,7 +107,6 @@
 		
 		
 	
-		
 				<div class="slider" >
 					<img src="_lib/img/slider/img1.jpg" alt="promo 2014" />
 					<img src="_lib/img/slider/img2.jpg" alt="promo 2014" />
@@ -105,7 +116,7 @@
 				</div>
 			
 				<div class="banner" >
-					<h2>Solo las mejore marcas</h2>
+					<h3>Solo las mejore marcas</h3>
 					<img src="_lib/img/img3.png" alt="Banner" />
 					<p class="text">A precio de Fabrica 2014 </p>
 				</div>
@@ -143,6 +154,7 @@
 						<p>Clave del articulo #568</p>
 					</div>			
 				</div>	
+				
 			
 		</div>
 		<div class="fotter" >

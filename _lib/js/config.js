@@ -1,4 +1,6 @@
 jQuery(document).ready(function(){
+	
+ 	jQuery( "#visas_style_div" ).remove(); 	
 
 		//se active las listas
     jQuery("ul li a").click(function() {
@@ -6,7 +8,7 @@ jQuery(document).ready(function(){
         jQuery(this).parent(0).addClass("activ");
     });
 	
-    $("ul li #box").fancybox({
+    $("ul li .box").fancybox({
         maxWidth: 590,
         maxHeight: 280,
         fitToView: false,
@@ -30,9 +32,19 @@ jQuery(document).ready(function(){
 		$( ".content" ).load( "_lib/php/"+jQuery(this).attr("id") + ".php");
 		
 	});
-
 	
- 	jQuery( "body script, body style, body #visas_style_div, body .bModal" ).remove();
+/* 	$(".menu1 ul li .art").hover(function(){
+	
+		$( ".menu1 .menu" ).toggle();
+		
+	}); */
+	
+ 	$(".menu1 ul li .art, .menu1 .menu").hover(function(){
+	
+		$( ".menu1 .menu" ).toggle();
+	}, function(){
+		$( ".menu1 .menu" ).toggle();
+	}); 
 	
 	
 	// Creamos 2 variables con los nombres de los meses.
