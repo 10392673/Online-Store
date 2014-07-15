@@ -7,4 +7,4 @@
    // Constantes utilizadas
    define("NOMBRE_TIENDA","Online Store");
    
-?>
+?> 
