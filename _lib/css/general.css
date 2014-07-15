@@ -151,11 +151,8 @@ body .wrapper .fotter p{ width:430px; }
 @-moz-keyframes mymove{	0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
 	50% {opacity:0; text-shadow:none; }
 	100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }
-}   
-
-
+}
 td{ color:#000; }
-
 
 
 /* Personalización */
