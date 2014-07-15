@@ -1,0 +1,165 @@
+body{ background-color:#FFF; text-align:center; color:#FFF; font-family:Arial; font-weight:bold; margin:0px auto; }
+/*COMIENZA ESTILOS GENERALES*/
+body div, span, form, p, a, select, input, label, img, ul, li, h1{ display:inline-block; margin:0px; padding:0px; border:0px; outline:none; font-family:Arial; font-size:12px; text-decoration:none; color:#FFF; }
+/*TERMINA ESTILOS GENERALES*/
+
+/*COMIENZA CCS PARA LOGGIN*/
+body .wraper{  background-color:#006185;  width:600px; height:280px; }
+body .wraper .titly{ background-color:#0F3F50; width:600px; text-align:center; height:40px; line-height:37px; font-weight:bold; }
+body .wraper form{ background:url("../img/logo.png") no-repeat 470px 21px #004A60; width:580px; height:220px; box-shadow:0px 1px 5px #000; margin-top:10px; }
+body .wraper form .bloque { width:400px; height:32px; margin-bottom:15px; }
+body .wraper form .bloque label{ width:100px;  }
+body .wraper form .bloque input{ text-align:center; background:url("../img/user.png") no-repeat 0px 0px transparent; margin:0px; width:250px; height:32px; display:inline-block; color:navy; font-family:arial; font-size:14px; }
+body .wraper form .bloque .user, body .wraper form .bloque .pass{ padding-left:48px; }
+body .wraper form .sep{ height:50px; width:300px; }
+body .wraper form .bloque .pass{ background:url("../img/pass.png") no-repeat 0px 0px transparent; }
+body .wraper form .bloque .enviar{ background:url("../img/send.png") no-repeat 0px 0px transparent; width:132px; height:33px; font-family:Arial; font-weight:bold; font-size:13px; color:#FFF; cursor:pointer; }
+body .wraper form .logo{ background:url("../img/help.png") no-repeat right top transparent; height:34px; width:113px; }
+/*TERMINA CCS PARA LOGGIN*/
+
+/*COMIENZA CCS PARA HOME*/
+body .wrapper{ width:1200px; margin:0px auto; }
+body .wrapper .header{ width:1200px; background-color:#004967; height:96px; position:relative; }
+body .wrapper .header .logoh{ background:url("../img/logoh.png") no-repeat center top transparent; height:89px; width:215px; float:left; }
+body .wrapper .header p{ float:right; line-height:45px; width:300px; }
+body .wrapper .header .menu1{ background-color:#FFF; width:748px; position:absolute; bottom:5px; left:250px; }
+body .wrapper .header .menu1 ul{ width:755px; }
+body .wrapper .header .menu1 ul li{ width:97px; margin-left:6px; float:left; }
+body .wrapper .header .menu1 ul li:first-child{ margin-left:0px; }
+body .wrapper .header .menu1 ul li a{ background-color:#0074A3; width:100px; line-height:30px; border-radius:4px; }
+body .wrapper .header .menu1 ul li a:first-child{ border-radius:0px; }
+body .wrapper .header .menu1 ul li .buscar{ background:url("../img/buscar.png") no-repeat 0px 0px transparent; width:230px; height:26px; text-indent:30px; font-weight:bold; }
+body .wrapper .header .menu1 ul li:nth-child(5) { width:230px; margin-top:2px; }
+
+body .wrapper .header .menu1 .menu{ position:absolute; width:100px; left:103px; z-index:100; }
+body .wrapper .header .menu1 .menu ul{ width:100px; height:43px; }
+body .wrapper .header .menu1 .menu ul li { width:100px; height:43px; margin:0px; }
+body .wrapper .header .menu1 .menu ul li a { width:100px; height:43px; background-color:#004967; line-height:40px; }
+body .wrapper .header .menu1 .menu ul li a:hover{ background-color:#005360; color:orange; text-decoration:underline; }
+
+body .wrapper .sep{ color:#000; float:left; height:20px; line-height:13px; text-align:left; text-indent:60px; width:500px; margin-top:12px; }
+body .wrapper .left{ width:215px; background-color:#005360; float:left; }
+body .wrapper .left .menu2{ width:215px; margin-top:20px;}
+body .wrapper .left .menu2 ul{ width:215px; }
+body .wrapper .left .menu2 ul li{ width:215px; margin-top:6px; }
+body .wrapper .left .menu2 ul li a{ background-color:#0074A3; width:215px; height:25px; line-height:26px; text-indent:25px;  text-align:left; }
+body .wrapper .left .menu2 ul li a:hover, body .wrapper .header .menu1 ul li a:hover { background-color:#003153; }
+body .wrapper .left .menu2 ul .activ a, body .wrapper .header .menu1 ul .activ a{ background-color:#003153; }
+body .wrapper .left img{ margin-top:20px; }
+/*TERMINA CCS PARA HOME*/
+
+/*COMIENZA CCS PARA CONTENEDOR HOME*/
+body .wrapper .content{ width:975px; background-color:cadetblue; float:right;  }
+body .wrapper .content .contenido{ width:632px; }
+body .wrapper .content .contenido ul{ width:600px;  }
+body .wrapper .content .contenido ul li{ width:600px; background:url("../img/vigneta.gif") no-repeat 0px 0px transparent; text-align:justify; margin-top:8px; padding-left:12px; }
+body .wrapper .content .contenido .textos2{ margin:0px 0px 15px 0px;text-align:justify; }
+body .wrapper .content .contenido .textos{ font-weight: bold; margin-top:25px; text-align:justify; width:632px; }
+body .wrapper .content .banner{ position:relative;  float:right; width:300px; height:500px;  }
+body .wrapper .content .banner .text{ color:snow; font-size:17px; text-shadow:2px 0 2px #000; width:300px; }
+body .wrapper .content .banner img{ width:300px; }
+body .wrapper .content .banner h2{ margin-bottom:0px; color:paleturquoise; font-weight:normal; }
+body .wrapper .content .slider{ width:600px !important; height:330px !important; margin-top:30px; box-shadow:1px 1px 9px seashell; }
+body .wrapper .content .slider img{ height:300px !important; width:600px !important; }
+body .wrapper .content .promo{ background-color:teal; float:left; width:974px; height:230px; }
+body .wrapper .content .promos{ width:270px; }
+body .wrapper .content .promos p{ width:200px; color:navy;  }
+body .wrapper .content .promos h1{ color:lawngreen; }
+/*TERMINA CCS PARA CONTENEDOR HOME*/
+
+/*COMIENZA CCS PARA OFERTAS Y PROMOCIONES*/
+body .wrapper .content .ofertas{ width:975px; }
+body .wrapper .content .ofertas .promo2 { width:300px;  margin-right:10px; height:320px; float:left; }
+body .wrapper .content .ofertas .promo2 h2{ width:300px; font-size:18px;  text-align:left; text-align:left; text-indent:15px;  }
+body .wrapper .content .ofertas .promo2 p{ width:300px; margin-top:15px; width:600px; float:left;  }
+body .wrapper .content .ofertas  .promo2 p b{ float:left; text-align:left;}
+body .wrapper .content .ofertas .promo2 p{ width:300px; }
+/*TERMINA CCS PARA OFERTAS Y PROMOCIONES*/
+
+/*COMIENZA CCS PARA PREGUNTAS FRECUENTES*/
+body .wrapper .content .ask{ width:975px; margin:10px 0px 20px 0px; }
+body .wrapper .content .ask h1{ width:975px; text-align:left; font-weight:bold; font-size:20px; text-indent:40px; }
+body .wrapper .content .ask ul{ width:975px; }
+body .wrapper .content .ask ul li{ background:url("../img/vigneta.gif") no-repeat 30px 10px transparent; text-indent:40px; width:700px; float:left; text-align:left; margin-top:10px; font-weight:bold; font-size:17px; } 
+body .wrapper .content .ask p{ float:left; width:700px; text-align:left; margin-left:50px; }
+body .wrapper .content .ask ul li a{ text-align:left; color:blue; }
+/*TERMINA CCS PARA PREGUNTAS FRECUENTES*/
+
+/*COMIENZA CCS PARA UBICACION*/
+body .wrapper .content .mapa{ width:632px; margin-top:20px; }
+body .wrapper .content .mapa h1, body .wrapper .content .us h1{ font-size:16px; font-family:Arial; font-weight:bold; width:600px; }
+body .wrapper .content .mapa p { float:left; height:52px; text-align:left; width:600px; color:#FFF; font-weight:bold; font-size:14px; }
+/*TERMINA CCS PARA UBICACION*/
+
+/*COMIENZA CCS PARA NOTICIAS*/
+body .wrapper .content .news, body .wrapper .content .us{ width:900px; }
+body .wrapper .content .news h1, body .wrapper .content .us  h1{ width:975px; text-align:left; font-weight:bold; font-size:20px; text-indent:40px; margin-top:20px; }
+body .wrapper .content .news .barra, body .wrapper .content .us .mensaje{ width:600px; float:left; margin-top:20px; }
+body .wrapper .content .news p, body .wrapper .content .us .mensaje p{ width:700px; float:left; text-align:left; margin:10px 0px 10px 0px; font-size:15px; }
+body .wrapper .content .news img{ float:left; }
+/*TERMINA CCS PARA NOTICIAS*/
+
+/*COMIENZA CCS PARA QUIENES SOMOS*/
+body .wrapper .content .us .mensaje h2{ font-size:15px; width:600px; }
+body .wrapper .content .us .mensaje { line-height:25px; }
+/*TERMINA CCS PARA QUIENES SOMOS*/
+
+
+/*COMIENZA CCS PARA POLITICA Y PRIVACIDAD*/
+body .wrapper .content .politica{ width:900px; margin-bottom:30px; }
+body .wrapper .content .politica h2{ width:900px; }
+body .wrapper .content .politica p{ text-align:justify;}
+body .wrapper .content .politica h3{ width:900px; }
+body .wrapper .content .politica ul{ width:700px;}
+body .wrapper .content .politica ul li{ width:700px; text-align:left; margin-top:20px; }
+/*TERMINA CCS PARA POLITICA Y PRIVACIDAD*/
+
+
+body .wrapper .content .articulo{ width:975px; background-color:#5F9EA0; position:relative; }
+
+
+/* body .wrapper .content .articulo .menu{ width:380px; height:43px; margin-top:15px; float:left; }
+body .wrapper .content .articulo .menu ul{ width:380px; height:43px; }
+body .wrapper .content .articulo .menu ul li, body .wrapper .content .articulo .submenu ul li{ width:126px; height:43px; }
+body .wrapper .content .articulo .menu ul li a, body .wrapper .content .articulo .submenu ul li a{ width:126px; height:43px; background-color:#004967; line-height:40px; }
+body .wrapper .content .articulo .menu ul li a:hover{ text-decoration:underline; color:orange; background-color:#003153; }
+body .wrapper .content .articulo .submenu{ position:absolute; left:0px; width:380px; top:58px; }
+body .wrapper .content .articulo .submenu ul{ width:126px; height:43px; position:absolute; left:0px; }
+body .wrapper .content .articulo .submenu ul li a:hover{ background-color:#005360; color:orange; text-decoration:underline; }
+body .wrapper .content .articulo .submenu .men1{} 
+body .wrapper .content .articulo .submenu .men2{ left:126px; } 
+body .wrapper .content .articulo .submenu .men3{ left:252px; } */ 
+body .wrapper .content .articulo .content2{ background-color:red; height:500px; width:700px; }
+
+/*COMIENZA CCS PARA FOTTER*/
+body .wrapper .fotter{ width:1200px; background-color:#004967; height:130px; }
+body .wrapper .fotter ul{ width:800px; height:50px; }
+body .wrapper .fotter ul li{ margin:10px;  border-bottom:1px solid #FFF; }
+body .wrapper .fotter ul li a{  width:200xp; }
+body .wrapper .fotter p{ width:430px; }
+/*TERMINA CCS PARA FOTTER*/
+
+.clock { width:212px; }
+.clock #Date {  font-size:22px; text-shadow:0 0 5px #00c6ff; }
+.clock ul { width:155px; }
+.clock ul li { text-shadow:0 0 50px #00c6ff; float:left; font-size:25px; }
+.clock ul #point { -moz-animation:mymove 1s ease infinite; -webkit-animation:mymove 1s ease infinite; }
+@-webkit-keyframes mymove { 0% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }
+	50% {opacity:0; text-shadow:none; }
+	100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }
+}
+@-moz-keyframes mymove{	0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+	50% {opacity:0; text-shadow:none; }
+	100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }
+}
+td{ color:#000; }
+
+
+/* Personalización */
+.header,.left,.fotter,.content,.promo{background-image: url(../img/azulinverso.jpg); background-repeat:repeat;}
+.header,.left,.fotter{background-position:right;}
+.content{background-position:-1500px;}
+.promo{background-position:1200px;
+   border-top:15px rgba(255,255,255,.6) solid;
+   border-bottom:15px rgba(255,255,255,.6) solid;
+} 
