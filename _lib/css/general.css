@@ -115,21 +115,17 @@ body .wrapper .content .politica ul li{ width:700px; text-align:left; margin-top
 /*TERMINA CCS PARA POLITICA Y PRIVACIDAD*/
 
 
-body .wrapper .content .articulo{ width:975px; background-color:#5F9EA0; position:relative; }
-
-
-/* body .wrapper .content .articulo .menu{ width:380px; height:43px; margin-top:15px; float:left; }
-body .wrapper .content .articulo .menu ul{ width:380px; height:43px; }
-body .wrapper .content .articulo .menu ul li, body .wrapper .content .articulo .submenu ul li{ width:126px; height:43px; }
-body .wrapper .content .articulo .menu ul li a, body .wrapper .content .articulo .submenu ul li a{ width:126px; height:43px; background-color:#004967; line-height:40px; }
-body .wrapper .content .articulo .menu ul li a:hover{ text-decoration:underline; color:orange; background-color:#003153; }
-body .wrapper .content .articulo .submenu{ position:absolute; left:0px; width:380px; top:58px; }
-body .wrapper .content .articulo .submenu ul{ width:126px; height:43px; position:absolute; left:0px; }
-body .wrapper .content .articulo .submenu ul li a:hover{ background-color:#005360; color:orange; text-decoration:underline; }
-body .wrapper .content .articulo .submenu .men1{} 
-body .wrapper .content .articulo .submenu .men2{ left:126px; } 
-body .wrapper .content .articulo .submenu .men3{ left:252px; } */ 
-body .wrapper .content .articulo .content2{ background-color:red; height:500px; width:700px; }
+/*COMIENZA CCS PARA ARTICULO}*/
+body .wrapper .content .pc{ width:975px; }
+body .wrapper .content .pc h2{ font-size:20px; }
+body .wrapper .content .pc .promopc{ width:220px; background-color:#FFF; float:left; margin:10px 10px 10px 11px; border: 1px solid #ddd; box-shadow:0 2px 15px #ccc; }
+body .wrapper .content .pc .promopc img{ margin-top:15px; width:150px; }
+body .wrapper .content .pc .promopc .art{ width:220px; margin-bottom:10px; }
+body .wrapper .content .pc .promopc .art p{ width:200px; color:#333; width:220px; margin-top:10px; }
+body .wrapper .content .pc .promopc .art b{ width:200px; color:#333; width:220px; margin-top:10px; }
+body .wrapper .content .pc .promopc .art label{ width:200px; color:#333; width:220px; margin-top:10px; }
+body .wrapper .content .pc .promopc .art a{ width:151px; height:43px; background:url("../img/btn.png") no-repeat 0px 0px transparent; margin-top:30px; }
+/*TERMINA CCS PARA ARTICULO}*/
 
 /*COMIENZA CCS PARA FOTTER*/
 body .wrapper .fotter{ width:1200px; background-color:#004967; height:130px; }
@@ -151,10 +147,15 @@ body .wrapper .fotter p{ width:430px; }
 @-moz-keyframes mymove{	0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
 	50% {opacity:0; text-shadow:none; }
 	100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }
-}   
-
-
+}
 td{ color:#000; }
 
 
-
+/* Personalización */
+.header,.left,.fotter,.content,.promo{background-image: url(../img/azulinverso.jpg); background-repeat:repeat;}
+.header,.left,.fotter{background-position:right;}
+.content{background-position:-1500px;}
+.promo{background-position:1200px;
+   border-top:15px rgba(255,255,255,.6) solid;
+   border-bottom:15px rgba(255,255,255,.6) solid;
+} 

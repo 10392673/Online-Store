@@ -8,7 +8,7 @@ jQuery(document).ready(function(){
         jQuery(this).parent(0).addClass("activ");
     });
 	
-    $("ul li .box").fancybox({
+    jQuery("ul li .box").fancybox({
         maxWidth: 590,
         maxHeight: 280,
         fitToView: false,
@@ -21,29 +21,29 @@ jQuery(document).ready(function(){
     });
 	
 	//carrusel de imagenes	
-	$('.slider').cycle({ 
+	jQuery('.slider').cycle({ 
 		fx:    'scrollLeft', 
 		delay: -1000 
 	}); 
 	
 
-	$("ul li a, .header .logoh").click(function(){
+	jQuery("ul li a, .header .logoh").click(function(){
 	
-		$( ".content" ).load( "_lib/php/"+jQuery(this).attr("id") + ".php");
+		jQuery( ".content" ).load( "_lib/php/"+jQuery(this).attr("id") + ".php");
 		
 	});
 	
-/* 	$(".menu1 ul li .art").hover(function(){
+/* 	jQuery(".menu1 ul li .art").hover(function(){
 	
-		$( ".menu1 .menu" ).toggle();
+		jQuery( ".menu1 .menu" ).toggle();
 		
 	}); */
 	
- 	$(".menu1 ul li .art, .menu1 .menu").hover(function(){
+ 	jQuery(".menu1 ul li .art, .menu1 .menu").hover(function(){
 	
-		$( ".menu1 .menu" ).toggle();
+		jQuery( ".menu1 .menu" ).show();
 	}, function(){
-		$( ".menu1 .menu" ).toggle();
+		jQuery( ".menu1 .menu" ).hide();
 	}); 
 	
 	
@@ -58,14 +58,14 @@ jQuery(document).ready(function(){
 	newDate.setDate(newDate.getDate());
 
 	// Sacamos dia, mes y año
-	$('#Date').html(dayNames[newDate.getDay()] + " " + newDate.getDate() + ' ' + monthNames[newDate.getMonth()] + ' ' + newDate.getFullYear());
+	jQuery('#Date').html(dayNames[newDate.getDay()] + " " + newDate.getDate() + ' ' + monthNames[newDate.getMonth()] + ' ' + newDate.getFullYear());
 
 		setInterval( function() {
 		
 			// Creamos los newDate() y extraemos los segundos
 			var seconds = new Date().getSeconds();
 
-			$("#sec").html(( seconds < 10 ? "0" : "" ) + seconds);
+			jQuery("#sec").html(( seconds < 10 ? "0" : "" ) + seconds);
 			},1000);
 			
 		setInterval( function() {
@@ -73,7 +73,7 @@ jQuery(document).ready(function(){
 			// Creamos un newDate() y extraemos los minutos
 			var minutes = new Date().getMinutes();
 
-			$("#min").html(( minutes < 10 ? "0" : "" ) + minutes);
+			jQuery("#min").html(( minutes < 10 ? "0" : "" ) + minutes);
 			},1000);
 			
 		setInterval( function() {
@@ -82,7 +82,7 @@ jQuery(document).ready(function(){
 			var hours = new Date().getHours();
 			
 			// Add a leading zero to the hours value
-			$("#hours").html(( hours < 10 ? "0" : "" ) + hours);
+			jQuery("#hours").html(( hours < 10 ? "0" : "" ) + hours);
 			}, 1000); 
 
 	});  
