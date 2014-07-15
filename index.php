@@ -68,7 +68,7 @@
                   <li><a class="art" href="javascript:void(0);">Articulos</a></li>
                   <li style="display:none;" ><a id="stock" href="javascript:void(0);">Stock</a></li>
                   <li><input type="text" name="buscar" class="buscar" placeholder="Buscar" /></li>
-                  <li><a class="box" data-fancybox-type="iframe" href="_lib/php/loggin.php">Iniciar Sesion</a></li>
+                  <li><a class="box" data-fancybox-type="iframe" style="overflow:auto;" href="_lib/php/loggin.php">Iniciar Sesion</a></li>
                </ul>
                <div style="display:none;" class="menu">
                   <ul>
