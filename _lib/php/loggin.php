@@ -2,7 +2,6 @@
    <!-- Apartado de AJAX -->
    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script>
-   
       $(function(){
          $("#BtnEnviar").click(function(){
             var url = "valida_usuario.php"; // El script a dónde se realizará la petición.

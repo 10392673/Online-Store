@@ -1,5 +1,6 @@
 <?PHP
    // Archivo con constantes y funciones globales en caso de ser utilizadas
+   @session_start();
    include("_lib/php/globales.php");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -68,7 +69,14 @@
                   <li><a class="art" href="javascript:void(0);">Articulos</a></li>
                   <li style="display:none;" ><a id="stock" href="javascript:void(0);">Stock</a></li>
                   <li><input type="text" name="buscar" class="buscar" placeholder="Buscar" /></li>
-                  <li><a class="box" data-fancybox-type="iframe" style="overflow:auto;" href="_lib/php/loggin.php">Iniciar Sesion</a></li>
+                  <?php
+                     if(isset($_SESSION['id']) && $_SESSION['id']>0){
+                        echo "<li><a href=\"#\" style=\"width:150px;\">". $_SESSION['nombre'] ."</a></li><li><a href='_lib/php/salir.php' style='width:10px;'>X</a></li>";
+                     }
+                     else{
+                        echo '<li><a class="box" data-fancybox-type="iframe" href="_lib/php/loggin.php">Iniciar Sesion</a></li>';
+                     }
+                  ?>
                </ul>
                <div style="display:none;" class="menu">
                   <ul>

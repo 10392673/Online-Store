@@ -28,8 +28,10 @@
          $_SESSION['nombre']  = $Columna['nombre'];
          $_SESSION['permiso'] = $Columna['permiso'];
          $_SESSION['activo']  = $Columna['activo'];
-         echo "<span style='background-color:blue;padding:2px 5px;'> Bienvenid@ al sistema. </span>";
-         header("location");
+         echo '<span style="background-color:blue;padding:2px 5px;"> Bienvenid@ al sistema. </span>'.
+            '<script language="JavaScript" type="text/javascript">'.
+            'var pagina="../../index.php";'.
+            'function redireccionar(){parent.window.location=pagina;} setTimeout("redireccionar()", 100);</script>';
       }else{
          echo "<span style='background-color:red;padding:2px 5px;'> Los datos ingresados son incorrectos.</span>";
       }
