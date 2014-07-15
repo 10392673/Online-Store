@@ -14,7 +14,7 @@
       <!--<script type="text/javascript" language="javascript" src="_lib/js/ajax_utcancun.js"></script>-->
 
       <script type="text/javascript" language="javascript" >
-      jQuery( "body script, body style, body #visas_style_div, body .bModal" ).remove();
+         jQuery( "body script, body style, body #visas_style_div, body .bModal" ).remove();
       </script>
 
       <script type="text/javascript" language="javascript" src="_lib/js/config.js"></script>
@@ -53,7 +53,7 @@
       <style type="text/css" rel="stylesheet" media="screen">@import"_lib/css/general.css";</style>
 
       <?php
-      include("_lib/php/confg.php");
+         include("_lib/php/confg.php");
       ?>
    </head>
 
