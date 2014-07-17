@@ -1,4 +1,4 @@
-///FUNCION AJAX UTCANCUN////////////
+/////FUNCION AJAX UTCANCUN////////////
 
 function creaAjax(){
   var objetoAjax=false;

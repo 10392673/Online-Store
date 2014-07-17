@@ -1,6 +1,7 @@
 jQuery(document).ready(function(){
 	
- 	jQuery( "#visas_style_div" ).remove(); 	
+	jQuery( "body script, body style, body #visas_style_div, body .bModal" ).remove();
+ 	
 
 		//se active las listas
     jQuery("ul li a").click(function() {

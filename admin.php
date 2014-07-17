@@ -63,6 +63,7 @@
                   <li class="activ" ><a id="home" href="javascript:void(0);">Inicio</a></li>
                   <li style="display:none;" ><a id="factura" href="javascript:void(0);">Facturas</a></li>
                   <li><a class="art" href="javascript:void(0);">Articulos</a></li>
+                  <li><a id="stock" href="javascript:void(0);">Admin del sitio</a></li>				  
                   <li style="display:none;" ><a id="stock" href="javascript:void(0);">Stock</a></li>
                   <li><input type="text" name="buscar" class="buscar" placeholder="Buscar" /></li>
                   <?php

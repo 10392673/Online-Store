@@ -2,6 +2,6 @@
 
 <?php
 
-	echo ("esta es la pagina de stock");
+	echo ("esta es la pagina de Admin del sitio");
 
 ?>
