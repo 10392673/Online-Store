@@ -1,6 +1,10 @@
 <?PHP
    // Archivo con constantes y funciones globales en caso de ser utilizadas
+<<<<<<< HEAD
     @session_start();
+=======
+   @session_start();
+>>>>>>> origin/master
    include("_lib/php/globales.php");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -71,7 +75,11 @@
                      }
                      else{
                         echo '<li><a class="box" data-fancybox-type="iframe" href="_lib/php/loggin.php">Iniciar Sesion</a></li>';
+<<<<<<< HEAD
                      } 
+=======
+                     }
+>>>>>>> origin/master
                   ?>
                </ul>
                <div style="display:none;" class="menu">
