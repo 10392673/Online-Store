@@ -115,17 +115,18 @@ body .wrapper .content .politica ul li{ width:700px; text-align:left; margin-top
 /*TERMINA CCS PARA POLITICA Y PRIVACIDAD*/
 
 
-/*COMIENZA CCS PARA ARTICULO
-body .wrapper .content .pc{ width:977px; }
-body .wrapper .content .pc h2{ font-size:20px; }
-body .wrapper .content .pc .banner{ height:200px; width:800px; }
-body .wrapper .content .pc .promopc{ width:221px; background-color:#FFF; float:left; margin:10px 10px 10px 11px; border: 1px solid #ddd; box-shadow:0 2px 15px #ccc; }
-body .wrapper .content .pc .promopc img{ margin-top:15px; width:150px; height:120px; }
-body .wrapper .content .pc .promopc .art{ width:220px; margin-bottom:10px; }
-body .wrapper .content .pc .promopc .art p{ width:200px; color:#333; width:220px; margin-top:10px; }
-body .wrapper .content .pc .promopc .art b{ width:200px; color:#333; width:220px; margin-top:10px; }
-body .wrapper .content .pc .promopc .art label{ width:200px; color:#333; width:220px; margin-top:10px; }
-body .wrapper .content .pc .promopc .art a{ width:151px; height:43px; background:url("../img/btn.png") no-repeat 0px 0px transparent; margin-top:30px; }*/
+/*COMIENZA CCS PARA ARTICULO*/
+.pc{ width:977px; }
+.pc h2{ font-size:20px; color:#333; width:975px; }
+.pc .banner{ height:200px; width:800px; float:left; margin-left:95px; }
+.pc .promopc{ width:221px; background-color:#FFF; float:left; margin:10px 10px 10px 11px; border: 1px solid #ddd; box-shadow:0 2px 15px #ccc; }
+.pc .promopc img{ margin-top:15px; width:150px; height:120px; }
+.pc .promopc .art{ width:220px; margin-bottom:10px; }
+.pc .promopc .art p{ width:200px; color:#333; width:220px; margin-top:10px; }
+.pc .promopc .art b{ width:200px; color:#333; width:220px; margin-top:10px; }
+.pc .promopc .art label{ width:200px; color:#333; width:220px; margin-top:10px; }
+.pc .promopc .art a{ width:151px; height:43px; background:url("../img/btn.png") no-repeat 0px 0px transparent; margin-top:30px; }
+
 /*TERMINA CCS PARA ARTICULO}*/
 
 
