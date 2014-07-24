@@ -2,7 +2,7 @@
 	  
 		<div class="pc" >
 			<h2>Laptop disponibles</h2>
-		<img class="banner" src="../img/ac22.jpg" />
+		<img class="banner" src="../img/ac23.png" />
 			<div class="promopc">
 					<img src="../img/ac1.jpg" alt="" />
 				<div class="art" >
