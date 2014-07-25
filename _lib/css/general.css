@@ -23,13 +23,14 @@ body .wrapper .header{ width:1200px; background-color:#004967; height:96px; posi
 body .wrapper .header .logoh{ background:url("../img/logoh.png") no-repeat center top transparent; height:89px; width:215px; float:left; }
 body .wrapper .header p{ float:right; line-height:45px; width:300px; }
 body .wrapper .header .menu1{ background-color:#FFF; width:748px; position:absolute; bottom:5px; left:250px; }
-body .wrapper .header .menu1 ul{ width:755px; }
+body .wrapper .header .menu1 ul{ width:850px; }
 body .wrapper .header .menu1 ul li{ width:auto; margin-left:6px; float:left; }
 body .wrapper .header .menu1 ul li:first-child{ margin-left:0px; }
 body .wrapper .header .menu1 ul li a{ background-color:#0074A3; width:100px; line-height:30px; border-radius:4px; }
 body .wrapper .header .menu1 ul li a:first-child{ border-radius:0px; }
 body .wrapper .header .menu1 ul li .buscar{ background:url("../img/buscar.png") no-repeat 0px 0px transparent; width:230px; height:26px; text-indent:30px; font-weight:bold; margin-top:2px; }
-body .wrapper .header .menu1 ul li:nth-child(5) { width:230px; margin-top:2px; }
+body .wrapper .header .menu1 ul li .busca{ background:url("../img/btn2.png") no-repeat 0px 0px transparent; width:57px; height:22px; cursor:pointer; font-size:12px; font-weight:bold; font-family:Arial; }
+body .wrapper .header .menu1 ul li:nth-child(5) { width:300px; margin-top:2px; }
 
 body .wrapper .header .menu1 .menu{ position:absolute; width:100px; left:106px; z-index:100; }
 body .wrapper .header .menu1 .menu ul{ width:100px; height:43px; }
@@ -127,6 +128,21 @@ body .wrapper .content .pc .promopc .art b{ width:200px; color:#333; width:220px
 body .wrapper .content .pc .promopc .art label{ width:200px; color:#333; width:220px; margin-top:10px; }
 body .wrapper .content .pc .promopc .art a{ width:151px; height:43px; background:url("../img/btn.png") no-repeat 0px 0px transparent; margin-top:30px; }
 /*TERMINA CCS PARA ARTICULO}*/
+
+
+
+
+/*COMIENZA CCS PARA LA TABLA DE BUSQUEDA */
+
+
+
+.buscar{ width:977px; background-color:red; height:300px; }
+
+
+/*TERMINA CCS PARA LA TABLA DE BUSQUEDA */
+
+
+
 
 
 /*COMIENZA CCS PARA FOTTER*/
