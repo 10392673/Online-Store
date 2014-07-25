@@ -65,7 +65,7 @@
                   <li><a class="art" href="javascript:void(0);">Articulos</a></li>
                   <li><a id="stock" href="javascript:void(0);">Admin del sitio</a></li>				  
                   <li style="display:none;" ><a id="stock" href="javascript:void(0);">Stock</a></li>
-                  <li><form method="post" action="_lib/php/buscar.php"  ><input type="text" name="buscar" class="buscar" placeholder="Ingrese busqueda" /><input type="submit" class="busca" value="Buscar" /> </form></li>
+                  <li><form id="form" method="post" action="_lib/php/buscar.php"  ><input type="text" name="buscar" class="buscar" placeholder="Ingrese busqueda" /><input type="submit" class="busca" value="Buscar" /> </form></li>
                   <?php
                      if(isset($_SESSION['id']) && $_SESSION['id']>0){
                         echo "<li><a href=\"#\" style=\"width:150px;\">". $_SESSION['nombre'] ."</a></li><li><a href='_lib/php/salir.php' style='width:10px;'>X</a></li>";

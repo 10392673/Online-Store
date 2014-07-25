@@ -34,12 +34,7 @@ jQuery(document).ready(function(){
 		
 	});
 	
-/* 	jQuery(".menu1 ul li .art").hover(function(){
-	
-		jQuery( ".menu1 .menu" ).toggle();
-		
-	}); */
-	
+
  	jQuery(".menu1 ul li .art, .menu1 .menu").hover(function(){
 	
 		jQuery( ".menu1 .menu" ).show();
