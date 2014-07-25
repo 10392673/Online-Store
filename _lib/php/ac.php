@@ -1,10 +1,9 @@
-      <style type="text/css" rel="stylesheet" media="screen">@import"../css/general.css";</style>
-	  
+
 		<div class="pc" >
 			<h2>Accesoris para PC</h2>
-		<img class="banner" src="../img/ac23.png" />
+		<img class="banner" src="_lib/img/ac23.png" />
 			<div class="promopc">
-					<img src="../img/ac1.jpg" alt="" />
+					<img src="_lib/img/ac1.jpg" alt="" />
 				<div class="art" >
 					<p>Bocina Logitech ZFD</p>
 					<!--<b>$1,500</b>-->
@@ -14,7 +13,7 @@
 				</div>
 			</div>
 			<div class="promopc">
-					<img src="../img/ac2.jpg" alt="" />
+					<img src="_lib/img/ac2.jpg" alt="" />
 				<div class="art" >
 					<p>Bocina Logitech V0I</p>
 					<p>$2,300</p><br /><br />
@@ -24,7 +23,7 @@
 				</div>
 			</div>
 			<div class="promopc">
-					<img src="../img/ac3.jpg" alt="" />
+					<img src="_lib/img/ac3.jpg" alt="" />
 				<div class="art" >
 					<p>Bocina Logitech TR9</p>
 					<p>$2,200</p><br /><br />
@@ -34,9 +33,9 @@
 				</div>
 			</div>
 			<div class="promopc">
-					<img src="../img/ac4.jpg" alt="" />
+					<img src="_lib/img/ac4.jpg" alt="" />
 				<div class="art" >
-					<p>Bocina Logitech TR9</p>
+					<p>Auricalar Deadema TRS</p>
 					<p>$460</p><br /><br />
 					<!--<p>2 Meses sin ineterese</p>
 					<label>Pagos desde $1,107.5</label>-->
@@ -45,9 +44,9 @@
 			</div>	
 
 			<div class="promopc">
-					<img src="../img/ac5.jpg" alt="" />
+					<img src="_lib/img/ac5.jpg" alt="" />
 				<div class="art" >
-					<p>Bocina Logitech TR9</p>
+					<p>Video Camara para PC</p>
 					<p>$1,400</p><br /><br />
 					<!--<p>2 Meses sin ineterese</p>
 					<label>Pagos desde $940</label>-->
@@ -55,9 +54,9 @@
 				</div>
 			</div>
 			<div class="promopc">
-					<img src="../img/ac6.png" alt="" />
+					<img src="_lib/img/ac6.png" alt="" />
 				<div class="art" >
-					<p>Bocina Logitech TR9</p>
+					<p>USB KINGSTON 8 GB</p>
 					<p>$350</p><br /><br />
 					<!--<p>2 Meses sin ineterese</p>
 					<label>Pagos desde $1,227.5</label>-->
@@ -65,9 +64,9 @@
 				</div>
 			</div>
 			<div class="promopc">
-					<img src="../img/ac7.jpg" alt="" />
+					<img src="_lib/img/ac7.jpg" alt="" />
 				<div class="art" >
-					<p>Bocina Logitech TR9</p>
+					<p>Mouse LG Modelo ZKT</p>
 					<p>$340</p><br /><br />
 					<!--<p>10 Meses sin ineterese</p>
 					<label>Pagos desde $780</label>-->
@@ -75,9 +74,9 @@
 				</div>
 			</div>
 			<div class="promopc">
-					<img src="../img/ac8.jpg" alt="" />
+					<img src="_lib/img/ac8.jpg" alt="" />
 				<div class="art" >
-					<p>Bocina Logitech TR9</p>
+					<p>Camara Logitech SRT</p>
 					<p>$460</p><br /><br />
 					<!--<p>8 Meses sin ineterese</p>
 					<label>Pagos desde $1,205</label>-->
@@ -86,9 +85,9 @@
 			</div>
 			
 			<div class="promopc">
-					<img src="../img/ac9.jpg" alt="" />
+					<img src="_lib/img/ac9.jpg" alt="" />
 				<div class="art" >
-					<p>Bocina Logitech TR9</p>
+					<p>USB varios modelos de 4 GB</p>
 					<p>$300</p><br /><br />
 					<!--<p>8 Meses sin ineterese</p>
 					<label>Pagos desde $1,075</label>-->
@@ -96,9 +95,9 @@
 				</div>
 			</div>
 			<div class="promopc">
-					<img src="../img/ac10.jpg" alt="" />
+					<img src="_lib/img/ac10.jpg" alt="" />
 				<div class="art" >
-					<p>Bocina Logitech TR9</p>
+					<p>Mousepad varios colores</p>
 					<p>$150</p><br /><br />
 					<!--<p>10 Meses sin ineterese</p>
 					<label>Pagos desde $869.9</label>-->
@@ -106,9 +105,9 @@
 				</div>
 			</div>
 			<div class="promopc">
-					<img src="../img/ac11.jpg" alt="" />
+					<img src="_lib/img/ac11.png" alt="" />
 				<div class="art" >
-					<p>Bocina Logitech TR9</p>
+					<p>Mousepad varios colores</p>
 					<p>$100</p><br /><br />
 					<!--<p>11 Meses sin ineterese</p>
 					<label>Pagos desde $956.3</label>-->
@@ -116,9 +115,9 @@
 				</div>
 			</div>
 			<div class="promopc">
-					<img src="../img/ac12.png" alt="" />
+					<img src="_lib/img/ac12.png" alt="" />
 				<div class="art" >
-					<p>Bocina Logitech TR9</p>
+					<p>Bocina Logitech FRS</p>
 					<p>$650</p><br /><br />
 					<!--<p>8 Meses sin ineterese</p>
 					<label>Pagos desde $1,195</label>-->
@@ -127,9 +126,9 @@
 			</div>
 
 			<div class="promopc">
-					<img src="../img/ac13.jpg" alt="" />
+					<img src="_lib/img/ac13.jpg" alt="" />
 				<div class="art" >
-					<p>Bocina Logitech TR9</p>
+					<p>Bocina Logitech GTR</p>
 					<p>$1,500</p><br /><br />
 					<!--<p>9 Meses sin ineterese</p>
 					<label>Pagos desde $955.5</label>-->
@@ -137,9 +136,9 @@
 				</div>
 			</div>
 			<div class="promopc">
-					<img src="../img/ac14.jpg" alt="" />
+					<img src="_lib/img/ac14.jpg" alt="" />
 				<div class="art" >
-					<p>Bocina Logitech TR9</p>
+					<p>Bocina Logitech QRT</p>
 					<p>$2,200</p><br /><br />
 					<!--<p>12 Meses sin ineterese</p>
 					<label>Pagos desde $1,165.5</label>-->
@@ -147,9 +146,9 @@
 				</div>
 			</div>
 			<div class="promopc">
-					<img src="../img/ac15.jpg" alt="" />
+					<img src="_lib/img/ac15.jpg" alt="" />
 				<div class="art" >
-					<p>Bocina Logitech TR9</p>
+					<p>Conector USB varios modelos</p>
 					<p>$500</p><br /><br />
 					<!--<p>9 Meses sin ineterese</p>
 					<label>Pagos desde $1,173.7</label>-->
@@ -157,9 +156,9 @@
 				</div>
 			</div>
 			<div class="promopc">
-					<img src="../img/ac16.jpg" alt="" />
+					<img src="_lib/img/ac16.jpg" alt="" />
 				<div class="art" >
-					<p>Bocina Logitech TR9</p>
+					<p>Auriculares Logitech RRS</p>
 					<p>$250</p><br /><br />
 					<!--<p>10 Meses sin ineterese</p>
 					<label>Pagos desde $1,126</label>-->
@@ -168,9 +167,9 @@
 			</div>			
 
 			<div class="promopc">
-					<img src="../img/ac17.jpg" alt="" />
+					<img src="_lib/img/ac17.jpg" alt="" />
 				<div class="art" >
-					<p>Bocina Logitech TR9</p>
+					<p>Auriculares Logitech GRT</p>
 					<p>$350</p><br /><br />
 					<!--<p>11 Meses sin ineterese</p>
 					<label>Pagos desde $778.1</label>-->
@@ -178,9 +177,9 @@
 				</div>
 			</div>
 			<div class="promopc">
-					<img src="../img/ac18.jpg" alt="" />
+					<img src="_lib/img/ac18.jpg" alt="" />
 				<div class="art" >
-					<p>Bocina Logitech TR9</p>
+					<p>Mouse, inalambricos USR</p>
 					<p>$420</p><br /><br />
 					<!--<p>12 Meses sin ineterese</p>
 					<label>Pagos desde $885</label>-->
@@ -188,9 +187,9 @@
 				</div>
 			</div>
 			<div class="promopc">
-					<img src="../img/ac19.jpg" alt="" />
+					<img src="_lib/img/ac19.jpg" alt="" />
 				<div class="art" >
-					<p>Bocina Logitech TR9</p>
+					<p>Teclado generico Logitech GHR</p>
 					<p>$670</p><br /><br />
 					<!--<p>12 Meses sin ineterese</p>
 					<label>Pagos desde $998.3</label>-->
@@ -198,9 +197,10 @@
 				</div>
 			</div>
 			<div class="promopc">
-					<img src="../img/ac20.jpg" alt="" />
+					<img src="_lib/img/ac20.jpg" alt="" />
 				<div class="art" >
-					<p>Bocina Logitech TR9</p>
+					<p>"Nuevo producto"</p>
+					<p>Teclado Logitech ZYU</p>
 					<p>$1,300</p><br /><br />
 					<!--<p>9 Meses sin ineterese</p>
 					<label>Pagos desde $958.8</label>-->
