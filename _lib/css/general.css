@@ -1,6 +1,6 @@
 body{ background-color:#FFF; text-align:center; color:#FFF; font-family:Arial; font-weight:bold; margin:0px auto; }
 /*COMIENZA ESTILOS GENERALES*/
-body div, span, form, p, a, select, input, label, img, ul, li, h1{ display:inline-block; margin:0px; padding:0px; border:0px; outline:none; font-family:Arial; font-size:12px; text-decoration:none; color:#FFF; }
+body div, span, form, p, a, select, input, label, img, ul, li, h1, table{ display:inline-block; margin:0px; padding:0px; border:0px; outline:none; font-family:Arial; font-size:12px; text-decoration:none; color:#FFF; }
 /*TERMINA ESTILOS GENERALES*/
 
 /*COMIENZA CCS PARA LOGGIN*/
@@ -130,15 +130,26 @@ body .wrapper .content .pc .promopc .art a{ width:151px; height:43px; background
 /*TERMINA CCS PARA ARTICULO}*/
 
 
+/*COMIENZA CCS PARA LA TABLA DE BUSQUEDA */
+body .wrapper .content .buscar{ width:977px; background-color:red; height:300px; }
+body .wrapper .content .buscar table { width:972px; float:left; }
+body .wrapper .content .buscar table .titulo, .buscar table .show { background-color:#eeeeee; display:inline-block; width:972px; height:39px; float:left; }
+body .wrapper .content .buscar table .titulo td, .buscar table .show  td { display:inline-block; width:159px; height:37px; float:left; border-bottom:1px dotted #bfafe4; border-right: 1px solid buttonshadow; font-size:13px; font-weight:bold; text-align:left; text-transform:uppercase; color:#6d6e71; font-family:"Helvetica",Arial,Verdana,sans-serif; line-height:37px; text-align:center; }
+body .wrapper .content .buscar table .show { background:url("../img/bg.gif") repeat-x scroll center bottom rgba(0, 0, 0, 0); height:27px;  }
+body .wrapper .content .buscar table .show  td{  border-bottom:1px dotted #bfafe4; height:25px; line-height:30px; }
+body .wrapper .content .buscar table .show  td img{ width:50px; height:25px;  }
+/*TERMINA CCS PARA LA TABLA DE BUSQUEDA */
+
 
 
 /*COMIENZA CCS PARA LA TABLA DE BUSQUEDA */
-
-
-
 .buscar{ width:977px; background-color:red; height:300px; }
-
-
+.buscar table { width:972px; float:left; }
+.buscar table .titulo, .buscar table .show { background-color:#eeeeee; display:inline-block; width:972px; height:39px; float:left; }
+.buscar table .titulo td, .buscar table .show  td { display:inline-block; width:159px; height:37px; float:left; border-bottom:1px dotted #bfafe4; border-right: 1px solid buttonshadow; font-size:13px; font-weight:bold; text-align:left; text-transform:uppercase; color:#6d6e71; font-family:"Helvetica",Arial,Verdana,sans-serif; line-height:37px; text-align:center; }
+.buscar table .show { background:url("../img/bg.gif") repeat-x scroll center bottom rgba(0, 0, 0, 0); height:27px;  }
+.buscar table .show  td{  border-bottom:1px dotted #bfafe4; height:25px; line-height:30px; }
+.buscar table .show  td img{ width:50px; height:25px;  }
 /*TERMINA CCS PARA LA TABLA DE BUSQUEDA */
 
 
