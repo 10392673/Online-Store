@@ -33,6 +33,12 @@ jQuery(document).ready(function(){
 		jQuery( ".content" ).load( "_lib/php/"+jQuery(this).attr("id") + ".php");
 		
 	});
+
+	jQuery(".content a").click(function(){
+	
+		//jQuery( ".content" ).load(jQuery(this).attr("id") + ".php");
+		alert("hola");
+	});
 	
 
  	jQuery(".menu1 ul li .art, .menu1 .menu").hover(function(){

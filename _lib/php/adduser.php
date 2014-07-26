@@ -17,28 +17,31 @@
 		{
 		
 		$id = $_POST['id']; 
+		$usuario = $_POST['usuario']; 
+		$clave = $_POST['clave']; 
 		$nombre = $_POST['nombre']; 
-		$dir = $_POST['direccion']; 
-		$tel = $_POST['telefono']; 
-		$rfc = $_POST['id_usuario']; 
+		$permiso = $_POST['permiso']; 
+		$activo = $_POST['activo']; 
 	}
 	
-		@$query = mysqli_query(@$conexion, "INSERT INTO cliente (id, nombre, direccion, telefono, id_usuario) VALUES ('$id','$nombre','$dir','$tel', '$clavus')" ); 
+		@$query = mysqli_query(@$conexion, "INSERT INTO cliente (id, usuario, clave, nombre, permiso, activo) VALUES ('$id','$usuario','$clave','$nombre', '$permiso','$activo')" ); 
 	
 	 ?>	
 	 
 	<div class="agreg" >
 		 <form action="add.php" method="post" >
 			<label>Id Cliente</label>
-			<input type="text" name="idcliente" />	
-			<label>Nombre</label>
-			<input type="text" name="nombre" />	
-			<label>Direccion</label>		
-			<input type="text" name="direccion" />
-			<label>Telefono</label>
-			<input type="text" name="tel" />
+			<input type="text" name="id" />	
+			<label>Usuario</label>
+			<input type="text" name="usuario" />	
 			<label>Clave de usuario</label>		
-			<input type="text" name="clavus" />
+			<input type="text" name="clave" />
+			<label>Nombre</label>
+			<input type="text" name="nombre" />
+			<label>permiso de usuario</label>		
+			<input type="text" name="permiso" />
+			<label>Activo</label>		
+			<input type="text" name="activo" />			
 			<div>
 				<input type="submit" name="guardar" value="Guardar" />		
 				<input type="reset" name="borrar" value="Limpiar" />		

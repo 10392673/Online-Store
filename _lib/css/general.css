@@ -105,7 +105,6 @@ body .wrapper .content .us .mensaje h2{ font-size:15px; width:600px; }
 body .wrapper .content .us .mensaje { line-height:25px; }
 /*TERMINA CCS PARA QUIENES SOMOS*/
 
-
 /*COMIENZA CCS PARA POLITICA Y PRIVACIDAD*/
 body .wrapper .content .politica{ width:900px; margin-bottom:30px; }
 body .wrapper .content .politica h2{ width:900px; }
@@ -129,7 +128,6 @@ body .wrapper .content .pc .promopc .art label{ width:200px; color:#333; width:2
 body .wrapper .content .pc .promopc .art a{ width:151px; height:43px; background:url("../img/btn.png") no-repeat 0px 0px transparent; margin-top:30px; }
 /*TERMINA CCS PARA ARTICULO}*/
 
-
 /*COMIENZA CCS PARA LA TABLA DE BUSQUEDA */
 body .wrapper .content .buscar{ width:977px; background-color:red; height:300px; }
 body .wrapper .content .buscar table { width:972px; float:left; }
@@ -139,6 +137,22 @@ body .wrapper .content .buscar table .show { background:url("../img/bg.gif") rep
 body .wrapper .content .buscar table .show  td{ background:url("../img/bg.gif") repeat 0px 0px rgba(0, 0, 0, 0); border-bottom:1px dotted #bfafe4; line-height:30px; }
 body .wrapper .content .buscar table .show  td img{ width:50px; height:25px;  }
 /*TERMINA CCS PARA LA TABLA DE BUSQUEDA */
+
+
+
+
+/*COMIENZA CCS PARA LA INTERFAZ DE ADMIN */
+body .wrapper .content .admin{ width:973px; background-color:#DCDCDC; height:360px; border:1px solid #B9B9B9; box-shadow:0 0 7px #b9b9b9; }
+body .wrapper .content .admin a { margin:110px 30px; }
+body .wrapper .content .admin a .cont{ background-color:#99B4D1; border-radius:5px; height:74px; width:100px; }
+body .wrapper .content .admin a .cont img{}
+body .wrapper .content .admin a .cont label{ width:90px; }
+/*TERMINA CCS PARA LA INTERFAZ DE ADMIN */
+
+
+
+
+
 
 
 
