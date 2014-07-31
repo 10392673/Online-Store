@@ -28,16 +28,16 @@ jQuery(document).ready(function(){
 	}); 
 	
 
-	jQuery("ul li a, .header .logoh").click(function(){
+/* 	jQuery("ul li a, .header .logoh").click(function(){
 	
-		jQuery( ".content" ).load( "_lib/php/"+jQuery(this).attr("id") + ".php");
+		jQuery( ".content" ).load("_lib/php/"+jQuery(this).attr("id") + ".php");
 		
-	});
+	}); */
 
-	jQuery(".content a").click(function(){
+	jQuery("a").click(function(){
 	
-		//jQuery( ".content" ).load(jQuery(this).attr("id") + ".php");
-		alert("hola");
+		jQuery( ".content").load("_lib/php/"+jQuery(this).attr("id") + ".php");
+		//#alert("hola");
 	});
 	
 
