@@ -14,7 +14,7 @@ include("conector.php");
 		echo "<td class='pq' >".@$row[nombre]."</td>";
 		echo "<td class='pq2' >".@$row[precio]."</td>";
 		echo "<td class='pq'>".@$row[cantidad]."</td>";
-		echo "<td class='pq' >".@$row[imagen]."</td>";
+		echo "<td class='pq' ><img src='$row[imagen]' alt='Producto en venta' title='Producto en venta' /></td>";
 		echo "<td class='pq' >".@$row[id_categoria]."</td>";
 		echo "<td class='pq2' >"."<a href='javascript:void(0);'>Eliminar</a>"."<a href='javascript:void(0);'>Actualizar</a>"."<a id='adduser' href='javascript:void(0);'>Agregar</a>"."</td>";
 		echo "</tr>";	
