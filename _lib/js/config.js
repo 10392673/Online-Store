@@ -37,7 +37,7 @@ jQuery(document).ready(function(){
 	jQuery("a").click(function(){
 	
 		jQuery( ".content").load("_lib/php/"+jQuery(this).attr("id") + ".php");
-		//#alert("hola");
+		//alert("hola");
 	});
 	
 

@@ -1,13 +1,10 @@
-  
-	<style type="text/css" rel="stylesheet" media="all">@import"../css/General.css";</style>
-
+  <script type="text/javascript" language="javascript" src="_lib/js/config.js"></script>
 	<?php 
 		include("conector.php");
 		
 		if($_POST) 
 		{
 		
-		$id = $_POST['id']; 
 		$usuario = $_POST['usuario']; 
 		$clave = $_POST['clave']; 
 		$nombre = $_POST['nombre']; 
@@ -15,14 +12,12 @@
 		$activo = $_POST['activo']; 
 	}
 	
-		@$query = mysqli_query(@$conexion, "INSERT INTO usuario (id, usuario, clave, nombre, permiso, activo) VALUES ('$id','$usuario','$clave','$nombre', '$permiso','$activo')" ); 
+		@$query = mysqli_query(@$conexion, "INSERT INTO usuario (usuario, clave, nombre, permiso, activo) VALUES ('$usuario','$clave','$nombre', '$permiso','$activo')" ); 
 	
 	 ?>	
 	 
 	<div class="agreg" >
 		 <form action="_lib/php/adduser.php" method="post" >
-			<label>Id Cliente</label>
-			<input type="text" name="id" />	
 			<label>Usuario</label>
 			<input type="text" name="usuario" />	
 			<label>Clave de usuario</label>		
@@ -34,8 +29,9 @@
 			<label>Activo</label>		
 			<input type="text" name="activo" />			
 			<div>
-				<input type="submit" class="gu" name="guardar" value=" " />		
-				<input type="reset" class="limp" name="borrar" value=" " />		
+				<input type="submit" title="Guardar" class="gu" name="guardar" value=" " />		
+				<input title="Limpiar" type="reset" class="limp" name="borrar" value=" " />	
+				<a title="Regrezar" id="listuser" href="javascript:void(0);"></a>	
 			</div>
 		
 		 

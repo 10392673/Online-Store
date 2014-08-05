@@ -129,10 +129,10 @@ body .wrapper .content .pc .promopc .art a{ width:151px; height:43px; background
 /*TERMINA CCS PARA ARTICULO}*/
 
 /*COMIENZA CCS PARA LA TABLA DE BUSQUEDA */
-body .wrapper .content .buscar{ width:977px; background-color:red; height:300px; }
+body .wrapper .content .buscar{ width:977px; }
 body .wrapper .content .buscar table { width:972px; float:left; }
 body .wrapper .content .buscar table .titulo, .buscar table .show { background-color:#eeeeee; display:inline-block; width:972px; height:39px; float:left; }
-body .wrapper .content .buscar table .titulo td, .buscar table .show  td { display:inline-block; width:140px; height:37px; float:left; border-bottom:1px dotted #bfafe4; border-right: 1px solid buttonshadow; font-size:13px; font-weight:bold; text-align:left; text-transform:uppercase; color:#6d6e71; font-family:"Helvetica",Arial,Verdana,sans-serif; line-height:37px; text-align:center; }
+body .wrapper .content .buscar table .titulo td, .buscar table .show  td { display:inline-block; width:140px; height:37px; float:left; border-bottom:1px dotted #bfafe4; border-right: 1px solid buttonshadow; font-size:12px; outline:none; font-weight:bold; text-align:left; text-transform:capitalize; color:#6d6e71; font-family:"Helvetica",Arial,Verdana,sans-serif; line-height:37px; text-align:center; }
 body .wrapper .content .buscar table tr .pq{ width:111px; }
 body .wrapper .content .buscar table tr .pq2{ width:227px; }
 body .wrapper .content .buscar table tr .pq2 a{ background-color:darkcyan; color:#FFF; display:inline-block; font-family:arial; font-size:12px; margin-left:4px; text-transform:initial; width:70px;}
@@ -158,25 +158,10 @@ body .wrapper .content .agreg form div{ width:200px;  }
 body .wrapper .content .agreg form div input{ cursor:pointer; width:70px; outline:none; } 
 body .wrapper .content .agreg form div .gu{ background:url("../img/grdar.png") no-repeat 0px 0px transparent; width:32px; height:32px; }
 body .wrapper .content .agreg form div .limp{ background:url("../img/erace.png") no-repeat 0px 0px transparent; width:32px; height:32px; float:right; }
+body .wrapper .content .agreg form div #listuser, body .wrapper .content .agreg form div #cliente { background:url("../img/reg.png") no-repeat 0px 0px transparent; width:32px; height:32px; float:left; }
 body .wrapper .content .agreg p{ width:600px;  height:50px; margin:20px; }
 body .wrapper .content .agreg .erros{ color:red; }
 body .wrapper .content .agreg .ok{ color:#FFF; }
-
-
-.agreg{ background-color:#4682B4; width:977px; }
-.agreg form { margin:20px; width:600px; }
-.agreg form input { color:#696969; font-size:12px; font-weight:bold; height:20px; margin:7px; width:235px; }
-.agreg form label{ text-align:right; width:300px;  }
-.agreg form div{ width:200px;  } 
-.agreg form div input{ cursor:pointer; width:70px; outline:none; } 
-.agreg form div .gu{ background:url("../img/grdar.png") no-repeat 0px 0px transparent; width:32px; height:32px; }
-.agreg form div .limp{ background:url("../img/erace.png") no-repeat 0px 0px transparent; width:32px; height:32px; float:right; }
-.agreg p{ width:600px;  height:50px; margin:20px; }
-.agreg .erros{ color:red; }
-.content .agreg .ok{ color:#FFF; }
-
-
-
 /*TERMINA CCS PARA FORMULARIOS*/
 
 

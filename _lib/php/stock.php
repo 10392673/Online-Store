@@ -1,4 +1,4 @@
-
+   <script type="text/javascript" language="javascript" src="_lib/js/config.js"></script>
 	  
 	  
 	  

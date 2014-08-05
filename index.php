@@ -1,7 +1,6 @@
 <?PHP
    // Archivo con constantes y funciones globales en caso de ser utilizadas
     @session_start();
-
    include("_lib/php/globales.php");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
